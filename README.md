@@ -94,21 +94,21 @@ The four plots that you will need to construct are shown below. You can see comp
 
 ### Plot 1
 
-<img src="figure/unnamed-chunk-2.png" alt="plot1" style="width: 200px;"> <img src="figure/plot1.png" alt="plot1" style="width: 200px;">
+<img src="figure/unnamed-chunk-2.png" alt="plot1" width="200"> <img src="figure/plot1.png" alt="plot1" width="200">
 
 
 ### Plot 2
 
-<img src="figure/unnamed-chunk-3.png" alt="plot2" style="width: 200px;"> <img src="figure/plot2.png" alt="plot2" style="width: 200px;">
+<img src="figure/unnamed-chunk-3.png" alt="plot2" width="200"> <img src="figure/plot2.png" alt="plot2" width="200">
 
 
 ### Plot 3
 
-<img src="figure/unnamed-chunk-4.png" alt="plot3" style="width: 200px;"> <img src="figure/plot3.png" alt="plot3" style="width: 200px;">
+<img src="figure/unnamed-chunk-4.png" alt="plot3" width="200"> <img src="figure/plot3.png" alt="plot3" width="200">
 
 
 ### Plot 4
 
-<img src="figure/unnamed-chunk-5.png" alt="plot4" style="width: 200px;"> <img src="figure/plot4.png" alt="plot4" style="width: 200px;">
+<img src="figure/unnamed-chunk-5.png" alt="plot4" width="200"> <img src="figure/plot4.png" alt="plot4" width="200">
 
 
