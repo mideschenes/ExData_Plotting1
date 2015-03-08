@@ -94,21 +94,20 @@ The four plots that you will need to construct are shown below. You can see comp
 
 ### Plot 1
 
-
-![plot of chunk unnamed-chunk-2](figure/smallunnamed-chunk-2.png)  ![plot of my plot1](figure/smallplot1.png) 
+<a href="figure/unnamed-chunk-2.png"><img src="figure/unnamed-chunk-2.png" alt="Plot1" width="300"></a> <a href="figure/plot1.png"><img src="figure/plot1.png" alt="Plot1" width="300"></a> 
 
 
 ### Plot 2
 
-![plot of chunk unnamed-chunk-3](figure/smallunnamed-chunk-3.png)  ![plot of my plot2](figure/smallplot2.png) 
+<a href="figure/unnamed-chunk-3.png"><img src="figure/unnamed-chunk-3.png" alt="Plot2" width="300"></a> <a href="figure/plot2.png"><img src="figure/plot2.png" alt="Plot2" width="300"></a> 
 
 
 ### Plot 3
 
-![plot of chunk unnamed-chunk-4](figure/smallunnamed-chunk-4.png)  ![plot of my plot3](figure/smallplot3.png) 
+<a href="figure/unnamed-chunk-4.png"><img src="figure/unnamed-chunk-4.png" alt="Plot3" width="300"></a> <a href="figure/plot3.png"><img src="figure/plot3.png" alt="Plot3" width="300"></a> 
 
 
 ### Plot 4
 
-![plot of chunk unnamed-chunk-5](figure/smallunnamed-chunk-5.png)  ![plot of my plot4](figure/smallplot4.png) 
+<a href="figure/unnamed-chunk-5.png"><img src="figure/unnamed-chunk-5.png" alt="Plot4" width="300"></a> <a href="figure/plot4.png"><img src="figure/plot4.png" alt="Plot4" width="300"></a> 
 
