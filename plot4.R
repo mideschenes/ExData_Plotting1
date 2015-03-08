@@ -65,7 +65,7 @@ png(
   bg = "white")
 
 ## change the number of plots (2 lines, 2 columns)
-par(mfrow = c(2, 2))                                           ##, mar = c(14, 6, 2, 2), cex=.5)
+par(mfrow = c(2, 2))
 
 ###############################################################################
 ## Create the first plot (first line, first column)                          ##

@@ -1,0 +1,308 @@
+with(mtcars, tapply(mpg, cyl, mean))
+apply(mtcars, 2, mean)
+lapply(mtcars, mean)
+sapply(mtcars, cyl, mean)
+mtcars
+mtcars$hp
+mean(mtcars$hp)
+mtcars$hp
+mtcars$hp[cyl=4]
+mtcars$hp[cyl==4]
+mtcars$hp[mtcars$cyl==4]
+mean(mtcars$hp[mtcars$cyl==4]) -  mean(mtcars$hp[mtcars$cyl==8])
+mean(mtcars$hp[mtcars$cyl==8]) -  mean(mtcars$hp[mtcars$cyl==4])
+ls()
+debug(ls)
+ls()
+n
+ls()
+summary(flags)
+str(flags)
+set.seed(20)
+z<- rnorm(1000)
+e<- rnorm(100, 0, 2)
+z<- rnorm(100)
+y<- 0.5 + 2*x +e
+x<- rnorm(100)
+y<- 0.5 + 2*x +e
+summaray(y)
+summary(y)
+plot(x, y)
+set.seed(10)
+x<- rbinom(100, 1, 0.5)
+e<- rnorm(100, 0, 2)
+y<- 0.5 + 2*x +e
+summary(y)
+plot(x, y)
+set.seed(1)
+x<-rnorm(100)
+log.mu <- 0.5 + 0.3 *x
+y <- rpose(100, exp(log.mu))
+y <- rpois(100, exp(log.mu))
+summary(y)
+plot(x, y)
+set.seed(1)
+sample(1:10, 4)
+sample(letters, 5)
+sample(:10)
+sample(1:10)
+sample(1:10, replace = TRUE)
+set.seed(1)#
+rpois(5, 2)
+set.seed(10)#
+x <- rbinom(10, 10, 0.5)#
+e <- rnorm(10, 0, 20)#
+y <- 0.5 + 2 * x + e
+plot(x, y)
+library(datasets)
+data(iris)
+tapply(iris$Sepal.Length, iris$Species, mean)
+iris
+head(iris)
+n <- readline(prompt="Enter your first name: ")
+hello <- function(){#
+        lastname <- readline(prompt="Enter your last name: ")   #
+        firstname <- readline(prompt="Enter your first name: ")#
+        paste("Hello", firstname, lastname, "!")#
+}
+hello()
+hello <- function(){#
+        lastname <- readline(prompt="Enter your last name: ")   #
+        firstname <- readline(prompt="Enter your first name: ")#
+        paste("Hello", firstname, lastname, "!")#
+}#
+#
+hello()
+R.version.string
+install.packages("swirl")
+library(swirl)
+install.packages("swirl")
+library(swirl)
+install.packages("sqldf")
+library(sqldf)
+sqldf("select pwgtp1 from acs where AGEP < 50")
+if (!file.exists("data")){#
+  dir.create("data")#
+}#
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv"#
+download.file(fileUrl, destfile = "./data/survey.csv", method="curl")#
+dateDownloaded <- date()#
+list.files("./data")#
+acs <- read.csv("./data/survey.csv")#
+head(acs)
+sqldf("select pwgtp1 from acs where AGEP < 50")
+sqldf("select pwgtp1, AGEP from acs where AGEP < 50")
+sqldf("select distinct AGEP from acs")
+sqldf("select distinct AGEP from acs order by AGEP")
+unique(acs$AGEP)
+length(unique(acs$AGEP))
+con = url("http://biostat.jhsph.edu/~jleek/contact.html")#
+htmlCode = readLines(con)#
+close(con)#
+htmlCode
+html[10]
+htmlCode[10]
+nchar(htmlCode[10])
+nchar(htmlCode[20])
+nchar(htmlCode[30])
+nchar(htmlCode[100])
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fwksst8110.for"#
+download.file(fileUrl, destfile = "./data/numero5.for", method="curl")#
+dateDownloaded <- date()
+data <- read.fwf(file="./data/numero5.for", skip=4, widths=c(12, 7,4, 9,4, 9,4, 9,4))
+data
+head(data)
+head(data[4])
+sum(data[4])
+swirl()
+library(sworl)
+library(swirl)
+swirl()
+library(dplyr)
+cran <- table_df(mydf)
+cran <- tbl_df(mydf)
+rm("mydf")
+cran
+?group_by
+by_package <- group_by(cran, package)
+bypackage
+by_package
+summarize(mean(size), by=by_package)
+?summarize
+summarise(by_package, mean(disp))
+summarise(by_package, mean(siz))
+summarise(by_package, mean(size))
+summarize(by_package, mean(size))
+submit()
+pack_sum
+quantile(pack_sum$count, probs = 0.99)
+top_counts <- filter(pack_sum, count > 679)
+top_counts
+head(top_counts, 20)
+?arrange
+arrange(top_counts, desc(count))
+quantile(pack_sum$unique, probs = 0.99)
+top_unique <- filter(pack_sum, pack_sum$unique > 465)
+top_unique <- filter(pack_sum, unique > 465)
+top_unique
+arrange(top_unique, desc(unique))
+source("/var/folders/mb/_713q5zx7fx16b5nw938txtw0000gn/T/RtmpEFyLa4/summarize1.R")
+submit()
+?chain
+submit()
+?mutate
+submit()
+submit
+submit()
+library(swirl)
+swirl()
+library(tidyr)
+students
+?gather
+gather(students, sex, count, -grade)
+students2
+res<-gather(students2, sex_class, count)
+res<-gather(students2, sex_class, count, -grade)
+res
+?separate
+separate(data = res, col = sex_class, into = c("sex", "class"))
+submit()
+students3
+submit()
+?spread
+submit()
+reset()
+?spread
+reset()
+submit()
+students3
+submit()
+reset()
+students
+students3
+submit()
+students3 %>%#
+  gather(class, grade, class1:class5, na.rm = TRUE) %>%
+print
+?spread
+submit()
+?spread
+submit()
+extract_numeric("class5")
+submit()
+students4
+submit()
+passed
+failed
+mutate(passed, status="passed")
+passed <- passed %>% mutate(status="passed")
+failed <- failed %>% mutate(status="failed")
+rbind_list(passed, failed)
+sat
+submit()
+?separate
+submit()
+sat %>%#
+  select(-contains("total")) %>%#
+  gather(part_sexe, count, -score_range) %>%#
+print
+submit()
+sat %>%#
+  select(-contains("total")) %>%#
+  gather(part_sexe, count, -score_range) %>%
+print
+submit()
+Sys.getlocal("LC_TIME")
+Sys.getlocale("LC_TIME")
+library(lubridate)
+help(package = lubridate)
+this_day <-today()
+this_day
+this_day <- day()
+day(this_day)
+wday(this_day)
+wday(this_day, label = TRUE)
+this_moment <- now()
+this_moment
+hour(this_moment)
+ymd("1989-05-17")
+my_date <-ymd("1989-05-17")
+my_date
+class(my_date)
+ymd("1989 May 17")
+ymd("March 12, 1975")
+mdy("March 12, 1975")
+dmy(25081985)
+dmy("25081985")
+ymd("192012")
+ymd("1920-1-2")
+dt1
+ymd_hms(dt1)
+hms("03:22:14")
+dt2
+ymddt2
+ymd(dt2)
+update(this_moment, hours=8,minutes=34, seconds=55)
+this_moment
+this_moment(this_moment, hours=4, minutes=47)
+this_moment<-update(this_moment, hours=4, minutes=47)
+this_moment
+nyc<now("America/New_York")
+nyc<-now("America/New_York")
+nyc
+depart<-nyc+days(2)
+depart
+depart<-update(depart, hours=17, minutes=34)
+depart
+arrive<-depart+hours(15)+minutes(50)
+?with_tz
+with_tz(time, tzone = "Asia/Hong_Kong")
+arrive <-with_tz(arrive, tzone = "Asia/Hong_Kong")
+arrive
+last_time <-mdy("June 17, 2008", tz = "Singapore")
+last_time
+?new_interval
+how_long<-new_interval(last_time, arrive)
+as.period(how_long)
+stopwatch()
+address <- "https://s3.amazonaws.com/coursera-uploads/user-a08088a2f0eff59edfb8a78e/973497/asst-3/3f4501b0a1bf11e4967b47812849b761.txt"#
+address <- sub("^https", "http", address)#
+data <- read.table(url(address), header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different#
+View(data)
+dim(data)
+https://s3.amazonaws.com/coursera-uploads/user-b93e82f35da562b06e978823/973497/asst-3/fde59530a0d411e4bb9a210b9822f0f4.txt#
+https://github.com/iJasja/getting-and-cleaning-data-project#
+address <- "https://s3.amazonaws.com/coursera-uploads/user-b93e82f35da562b06e978823/973497/asst-3/fde59530a0d411e4bb9a210b9822f0f4.txt"#
+address <- sub("^https", "http", address)#
+data <- read.table(url(address), header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different#
+View(data)#
+dim(data)
+address <- "https://s3.amazonaws.com/coursera-uploads/user-b93e82f35da562b06e978823/973497/asst-3/fde59530a0d411e4bb9a210b9822f0f4.txt"#
+address <- sub("^https", "http", address)#
+data <- read.table(url(address), header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different#
+View(data)#
+dim(data)
+address <- "https://s3.amazonaws.com/coursera-uploads/user-c58b2b0f1ffdedc31e8bcd60/973497/asst-3/f1ddf120a0b011e49baf37c7affac528.txt"#
+address <- sub("^https", "http", address)#
+data <- read.table(url(address), header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different#
+View(data)#
+dim(data)
+address <- "https://s3.amazonaws.com/coursera-uploads/user-6a6bc08224a4165cf0930462/973497/asst-3/9666cc60a32e11e4b6eb5f116c2a87a8.txt"#
+address <- sub("^https", "http", address)#
+data <- read.table(url(address), header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different#
+View(data)#
+dim(data)
+address <- "https://s3.amazonaws.com/coursera-uploads/user-a08088a2f0eff59edfb8a78e/973497/asst-3/3f4501b0a1bf11e4967b47812849b761.txt"#
+address <- sub("^https", "http", address)#
+data <- read.table(url(address), header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different#
+View(data)#
+dim(data)
+?device
+setwd("exploratory/projet1/ExData_Plotting1")
+source("plot3.R")
+source("plot3.R")
+source("plot4.R")
+source("plot4.R")
+source("plot4.R")
+exit
+bye
