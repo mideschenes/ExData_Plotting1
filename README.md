@@ -94,21 +94,21 @@ The four plots that you will need to construct are shown below. You can see comp
 
 ### Plot 1
 
-
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png =300x)  ![plot of my plot1](figure/plot1.png =300x) 
+<img src="figure/unnamed-chunk-2.png" alt="plot1" style="width: 200px;"> <img src="figure/plot1.png" alt="plot1" style="width: 200px;">
 
 
 ### Plot 2
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png =300x)  ![plot of my plot2](figure/plot2.png =300x) 
+<img src="figure/unnamed-chunk-3.png" alt="plot2" style="width: 200px;"> <img src="figure/plot2.png" alt="plot2" style="width: 200px;">
 
 
 ### Plot 3
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png =300x)  ![plot of my plot3](figure/plot3.png =300x) 
+<img src="figure/unnamed-chunk-4.png" alt="plot3" style="width: 200px;"> <img src="figure/plot3.png" alt="plot3" style="width: 200px;">
 
 
 ### Plot 4
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png =300x)  ![plot of my plot4](figure/plot4.png =300x) 
+<img src="figure/unnamed-chunk-5.png" alt="plot4" style="width: 200px;"> <img src="figure/plot4.png" alt="plot4" style="width: 200px;">
+
 
